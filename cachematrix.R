@@ -1,7 +1,7 @@
-# Taking the inverse of a matrix is a time consuming operation.
-# If the contents of a matrix are not changing <-> make sense to cache the value
-# of the inverse. So that when we need it again, it can be looked up in the cache 
-# rather than recomputed. (Using scoping rules of the R language)
+# Taking the inverse of a matrix is a time consuming operation. If the contents
+# of a matrix are not changing <-> make sense to cache the value of the inverse.
+# So that when we need it again, it can be looked up in the cache rather than recomputing. 
+# ----- Using scoping rules of the R language -----
 
 ## This function creates a special "matrix" object that can cache its inverse.
 
